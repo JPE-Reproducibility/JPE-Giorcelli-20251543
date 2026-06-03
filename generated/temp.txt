@@ -1,0 +1,172 @@
+         README File 
+         Paper: Copyright and Creativity: Evidence from Italian Opera in the Napoleonic Age 
+         Authors: Michela Giorcelli and Petra Moser 
+         Date: March 2026 
+          
+         This document contains instructions to produce the datasets included in the replication package 
+         of Giorcelli and Moser (2020) from the raw data. 
+          
+         Software and Package Requirements 
+         Software Requirements: Stata. The code was written and analysis run on Stata/MP Version 17 
+          
+         Description of the Replication Package 
+         Folder “Raw Data” contains all the data necessary to reproduce the final datasets used to produce 
+         GM20 figures and the tables: 
+            –  operas_raw_data.dta contains operas premiered in Italy between 1781 and 1821  
+            –  theater_raw_data.dta contains theaters data 
+            –  additional_operas.dta contains complementary composer-level operas 
+            –  composer_roster.dta contains composers’ biographical information and overall 
+               productivity 
+          
+         Folder “Intermediate Data” contains datasets from GM20 replication package that are used in the 
+         response to either perform additional robustness tests or to replicate MT25 analysis: 
+            –  operas_1781_1820: contains GM20 data at the state-year level between 1781 and 
+               1820.  
+            –  city_level_operas_1781_1820: contains GM20 data at the city-year level 
+               between 1781 and 1820.  
+            –  composer_level_data: contains GM20 data at the composer-state-year level 
+               between 1781 and 1820.  
+                
+         Folder “Code” contains all code necessary to transform the raw data to output data, as well as 
+         producing all figures and tables. It is divided in two subfolders: 
+            –  GM20_dofiles: contains the dofiles that go from the raw data to state-level results 
+               (GM20_state_level_analysis), city-level results (GM20_city_level_analysis) 
+               and composer-level results (GM20_composer_level_analysis) 
+
+
+
+                                         1             –  MT25_dofiles: contains the dofiles used to reproduce the tables included in the Letter to 
+               the Editor 
+          
+         Folder “Output” contains all the output files 
+            –  GM20_output: contains all the outputs from GM20_dofiles 
+            –  MT25_ output: contains all the outputs from MT25_dofiles 
+                              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                         2          Construction of Intermediate Datasets 
+         –  operas_1781_1820.dta: this dataset is used to produce the main results of the paper 
+             and the corresponding robustness checks. It is  obtained by collapsing 
+             operas_raw_data.dta at the state- level year. It contains 677 observations. Table 3 (and 
+             the corresponding robustness checks) are estimated on the years 1781-1820 to have the same 
+             number of years before and after copyright introduction in 1801, which correspond to 657 
+             operas. 
+         –  city_level_operas_1781_1820.dta: this dataset is used to produce results in 
+             Section VII, which estimates the interaction between copyright and pre-existing 
+             infrastructure, proxied by number of theaters. It uses operas_raw_data.dta when 
+             theater information is available, and complements this dataset with detailed historical city-
+             level data on theater, as explained on p. 4203 of GM20. In total, theater information is 
+             available for 617 operas.  
+         –  composer_level_data.dta: this dataset is used to produce results in Section V of the 
+             paper, which estimates the effects of copyright on composers’ productivity. As explained in 
+             the definition of variables in equation (4), it is at composer-level and the outcome variable 
+             opera is the number of operas that a given composer creates in a state-year pair. Starting from 
+             operas_raw_data.dta, this dataset is complemented with information from the New 
+             Grove Dictionary of Music and Musicians (Grove 2001) and Treccani’s (2001) Enciclopedia 
+             Italiana di scienze, lettere ed arti (GM20 p. 4178). We exclude operas for which the 
+             composition state could not be determined, 1  and collapse the dataset at composer-state-year 
+             level. We keep the total composition per composer (variable tot_operas in the replication 
+             package) to compute the share of most prolific composers on the total pool of composers’ 
+             data (active from 1770 to 1900).  
+          
+                              
+
+
+
+
+
+
+
+                               
+         1  Revivals are reported in the state of composition and year of revival.  
+
+
+                                         3             Datasets, Do-files and Output used in the Letter to the Editor 
+             
+                 Dofile                      Output File              Response Table 
+        Replication_Table3_MG20      GM20_Table3                        Table 1 
+        GM20_state_level_analysis     tableA10                           Table 2 
+        Replication_Table4_MT25      MT25_Table4                        Table 3 
+        Replication_Table5_MT25      MT25_Table5                        Table 4 
+        Replication_Table6_MT25      MT25_Table6                        Table 5 
+        Replication_Table7_MT25      MT25_Table7                        Table 6 
+        Replication_PreTrends        Pretrends                           Table 7 
+        Replication_TableB1_MT25     MT25_TableB1                       Table 8 
+        Replication_TableB1_MT25     MT25_TableB1_Excluding_Modena_Parma    Table 9 
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                         4 

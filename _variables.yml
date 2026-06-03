@@ -1,6 +1,11 @@
-title: "Stand-in title"
-author: "Dr Prof James 'JayJay' Author"
-paper_id: 12345678
+title: "Copyright and Creativity: Evidence from Italian Opera in the Napoleonic Age"
+author: "Giorcelli"
 round: 1
-repo: "https://www.github.com/standin"
-dropbox_rel_path: "JPE/Author-12345678/1"
+repo: "https://github.com/JPE-Reproducibility/JPE-Giorcelli-20251543"
+paper_id: 20251543
+journal: "JPE"
+paper_slug: "Giorcelli-20251543"
+dropbox_rel_path: "JPE/Giorcelli-20251543/1"
+package_size_gb: 0.0
+package_max_file_size_gb: 2
+package_max_pkg_size_gb: 10

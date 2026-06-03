@@ -1,0 +1,10 @@
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20251543-1/replication-package/Dofiles/GM20_Dofiles/GM20_city_level_analysis.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20251543-1/replication-package/Dofiles/GM20_Dofiles/GM20_composer_level_analysis.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20251543-1/replication-package/Dofiles/GM20_Dofiles/GM20_state_level_analysis.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20251543-1/replication-package/Dofiles/MT25_Dofiles/Replication_PreTrends.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20251543-1/replication-package/Dofiles/MT25_Dofiles/Replication_Table3_GM20.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20251543-1/replication-package/Dofiles/MT25_Dofiles/Replication_Table4_MT25.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20251543-1/replication-package/Dofiles/MT25_Dofiles/Replication_Table5_MT25.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20251543-1/replication-package/Dofiles/MT25_Dofiles/Replication_Table6_MT25.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20251543-1/replication-package/Dofiles/MT25_Dofiles/Replication_Table7_MT25.do
+/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20251543-1/replication-package/Dofiles/MT25_Dofiles/Replication_TableB1_MT25.do
