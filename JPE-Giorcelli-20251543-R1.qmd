@@ -80,8 +80,6 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 
 # Requirements 
 
-> {REPLICATOR}: Check that these requirements are met. 
-
 - [x] README is in TXT, MD, or PDF format
 - [x] README is accessible at the root of the package (not inside a folder)
 - [ ] Title conforms to guidance (starts with "Data and Code for: Title of Paper" or "Code for: Title of Paper", is properly capitalized)
@@ -225,7 +223,6 @@ The following STATA packages had to be manually installed:
 
 > [REQUIRED] Please amend README to contain complete requirements. 
 
-You can copy the section above, amended if necessary.
 
 ## Data Preparation Code
 
